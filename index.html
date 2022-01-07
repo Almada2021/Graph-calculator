@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Calc</title>
+    <link rel="stylesheet " href="css/index.css ">
+</head>
+
+<body class="bg-black ">
+    <div class="contenedor ">
+        <div class="container-title container-fluid bg-dark ">
+            <h1 class=" text-center "><a href="index.html " class="text-decoration-none container-title-text text-danger ">Graph calculator <i class="bi bi-calculator "></i></a></i>
+            </h1>
+        </div>
+        <div class="container-description container text-light bg-dark rounded-3 p-2 mt-5">
+            <p class="container-description-text fw-bold ">
+                graph calculator is an application to see graphs of mean, median and mode in real time by allowing data to be added we offer the possibility of entering your own data to the application and view it almost in real time
+            </p>
+        </div>
+        <div class="container bg-light mt-5">
+            <form action="">
+                <label for="num1">Dato</label>
+                <input type="number" id="num1" value="0">
+            </form>
+        </div>
+        <div class="container-graph container p-5 bg-light rounded-1 mt-5 border border-danger border-3 ">
+            <div class="container-graph-column row bg-warning d-flex  justify-content-center align-items-end">
+                <div class="col-3 bg-primary mx-1 text-center text-light " id="column1">0</div>
+                <div class="col-3 bg-info mx-1 text-center text-light" id="column2">0</div>
+                <div class="col-3 bg-danger mx-1 text-center text-light" id="columa3">0</div>
+            </div>
+        </div>
+        <button onclick="increment()">apretalo</button>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script src="js/index.js "></script>
+</body>
+
+</html>
